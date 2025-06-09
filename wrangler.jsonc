@@ -1,7 +1,5 @@
 {
-  "name": "InfinityAI-Frontend",
-  "compatibility_date": "2025-06-09",
-  "assets": {
-    "directory": "./"
+  // wrangler.jsonc
+"name": "gyani",
   }
 }
