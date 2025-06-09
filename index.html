@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Infinity AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔮 Hi Gyani - Your AI Assistant 🔥</h1>
+        
+        <!-- Chat Section -->
+        <div class="chat-box">
+            <input type="text" id="queryInput" placeholder="Ask Infinity AI..." />
+            <button onclick="askAI()">🔍 Ask AI</button>
+            <h2 id="response"></h2>
+        </div>
+
+        <!-- Voice Activation -->
+        <button onclick="startListening()">🎤 Voice Chat</button>
+
+        <!-- PDF Upload & Q&A -->
+        <input type="file" id="pdfUpload" onchange="uploadPDF()" />
+        <button onclick="queryPDF()">📄 Ask from PDF</button>
+        
+        <!-- Other AI Features -->
+        <button onclick="imageCaption()">🖼️ Image Caption</button>
+        <button onclick="videoSummary()">🎞️ Video Summary</button>
+        <button onclick="translateText()">🌍 Translate</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
